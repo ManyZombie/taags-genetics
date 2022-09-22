@@ -1,6 +1,9 @@
 <template>
   <form @submit.prevent.stop="submit">
     <QCard class="q-ma-md q-pa-md">
+      <QCard v-if="documentInputs.length === 0" class="q-my-md" flat bordered>
+        <QCardSection color="text-grey"> Sin documentos </QCardSection>
+      </QCard>
       <input
         v-for="(_, index) in documentInputs"
         ref="documentInputsRefs"
