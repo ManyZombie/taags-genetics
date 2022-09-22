@@ -2,7 +2,7 @@ export default [
   {
     nombre: "Salmonella",
     id: 1,
-    descripcion:
+    descripción:
       "La infección por salmonela (salmonelosis) es una enfermedad bacteriana frecuente que afecta el aparato intestinal. La bacteria de la salmonela generalmente vive en los intestinos de animales y humanos y se libera mediante las heces. Los humanos se infectan con mayor frecuencia mediante el agua o alimentos contaminados.",
   },
   {

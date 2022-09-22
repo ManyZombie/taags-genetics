@@ -1,12 +1,38 @@
 <template>
-  <QBtn>Test</QBtn>
+  <QTable
+    title="Patógenos"
+    :rows="pathogens"
+    :columns="columns"
+    row-key="name"
+  />
 </template>
 
 <script lang="ts" setup>
-import unsorteredMenuData from "./Pathogenos";
+import rawPathogens from "./Pathogens";
 import { computed } from "vue";
 
-const menuData = computed(() => unsorteredMenuData.sort((a, b) => a.Id - b.Id));
+const pathogens = computed(() =>
+  rawPathogens.sort((a, b) => new Intl.Collator().compare(a.nombre, b.nombre))
+);
+
+const columns = [
+  {
+    name: "name",
+    required: true,
+    label: "Nombre",
+    align: "left",
+    field: "nombre",
+    sortable: true,
+  },
+  {
+    name: "calories",
+    align: "left",
+    label: "Descripcción",
+    field: "descripción",
+    format: (val: string) => val || "Sin descripcción",
+    sortable: true,
+  },
+];
 </script>
 
 <style scoped lang="scss">
