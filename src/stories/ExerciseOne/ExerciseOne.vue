@@ -9,10 +9,10 @@
 </template>
 
 <script lang="ts" setup>
-import unsorteredMenuData from "./MenuData";
+import rawMenuData from "./MenuData";
 import { computed } from "vue";
 
-const menuData = computed(() => unsorteredMenuData.sort((a, b) => a.Id - b.Id));
+const menuData = computed(() => rawMenuData.sort((a, b) => a.Id - b.Id));
 </script>
 
 <style scoped lang="scss">
