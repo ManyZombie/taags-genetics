@@ -31,7 +31,7 @@ module.exports = {
       plugins: [
         vueI18n({
           include: path.resolve(__dirname, "../src/locales/**"),
-          compositionOnly: false,
+          compositionOnly: true,
           runtimeOnly: false,
         }),
         eslintPlugin(),

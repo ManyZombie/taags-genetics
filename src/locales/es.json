@@ -1,0 +1,15 @@
+{
+  "contact": {
+    "slogan": "Coordinemos una reunión para encontrar la mejor solución para sus necesidades.",
+    "message": "Siéntase libre de contactar con nosotros",
+    "contact": "Contáctanos",
+    "name": "Nombre",
+    "lastname": "Apellido",
+    "company": "Empresa",
+    "job": "Cargo",
+    "email": "Email empresarial",
+    "phone": "Teléfono",
+    "comments": "Comentarios",
+    "send": "ENVIAR"
+  }
+}

@@ -1,16 +1,15 @@
 {
-  "welcome": "Welcome to Vite + Vue 3 + Storybook + Typescript",
-  "setup": "Recommended IDE setup:",
-  "see-readme": {
-    "see": "see",
-    "more-info": "for more information."
-  },
-  "docs": "Docs",
-  "check-reactivity": "Check reactivity",
-  "count": "no clicks |  {count} click | {count} clicks",
-  "hmr": {
-    "edit": "Edit",
-    "test": "to test hot module replacement"
-  },
-  "select-locale": "Select locale"
+  "contact": {
+    "slogan": "Let's coordinate a meeting to find the best solution for your needs.",
+    "message": "Feel free to contact us",
+    "contact": "Contact us",
+    "name": "First name",
+    "lastname": "Last name",
+    "company": "Company",
+    "job": "Job title",
+    "email": "Business email",
+    "phone": "Phone",
+    "comments": "Comments",
+    "send": "SEND"
+  }
 }
