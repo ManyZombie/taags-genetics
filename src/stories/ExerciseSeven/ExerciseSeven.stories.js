@@ -31,11 +31,3 @@ Desktop.parameters = {
     defaultViewport: undefined,
   },
 };
-
-export const Mobile = Template.bind({});
-
-Mobile.parameters = {
-  viewport: {
-    defaultViewport: "iphone5",
-  },
-};

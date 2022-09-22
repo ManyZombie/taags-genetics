@@ -46,7 +46,7 @@ const Template = (args) => ({
 export const Desktop = Template.bind({});
 
 Desktop.args = {
-  size: 32,
+  size: 12,
   color: "white",
   translateX: 0,
   translateY: 0,
